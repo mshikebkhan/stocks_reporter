@@ -2,8 +2,8 @@ import requests
 import datetime
 
 today = datetime.date.today()
-yesterday = today - datetime.timedelta(days=2)
-day_before_yesterday = today - datetime.timedelta(days=4)
+yesterday = today - datetime.timedelta(days=1)
+day_before_yesterday = today - datetime.timedelta(days=2)
 
 
 class DataHunter:
